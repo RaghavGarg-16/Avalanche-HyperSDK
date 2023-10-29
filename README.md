@@ -6,12 +6,12 @@ The aim of this project was to create a custom virtual machine (VM) using the Hy
 
 ## Table of Contents
 
-- [Project Steps](#project-steps)
-- [Functionalities Implemented](#functionalities-implemented)
-- [Tools and Technologies](#tools-and-technologies)
-- [Usage](#usage)
-- [Contributors](#contributors)
-- [License](#license)
+- Project Steps
+- Functionalities Implemented
+- Tools and Technologies
+- Usage
+- Contributors
+- License
 
 ## Project Steps
 
