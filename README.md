@@ -29,50 +29,13 @@ It is a user-friendly web application designed to help both instructors and lear
 
 ## Table of Contents
 
+- [Features](#features)
 - [File Structure](#file-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
 - [Deployment](#deployment)
 - [License](#license)
 
-## File structure
-- client - Holds the client application
-- public - This holds all of our static files
-- src
-- assets - This folder holds assets such as images, docs, and fonts
-- components - This folder holds all of the different components that will make up our views
-- views - These represent a unique page on the website i.e. Home or About. These are still normal react components.
-- App.js - This is what renders all of our browser routes and different views
-- index.js - This is what renders the react app by rendering App.js, should not change
-- package.json - Defines npm behaviors and packages for the client
-- server - Holds the server application
-- config - This holds our configuration files, like mongoDB uri
-- controllers - These hold all of the callback functions that each route will call
-- models - This holds all of our data models
-- routes - This holds all of our HTTP to URL path associations for each unique url
-- tests - This holds all of our server tests that we have defined
-- server.js - Defines npm behaviors and packages for the client
-- package.json - Defines npm behaviors like the scripts defined in the next section of the README
-- .gitignore - Tells git which files to ignore
-- README - This file!
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-## Usage
-
-- Create an account or log in as a learner.
-- Browse the course catalog and enroll in courses of interest.
-- 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 ## Features
 
 ### 1. User Authentication and Registration:
@@ -93,6 +56,44 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ### 4. Admin Dashboard:
 
 - Backend interface for administrators to manage users, courses, content, and settings.
+  
+learnify/
+|-- client/
+|   |-- public/
+|   |-- src/
+|   |   |-- components/
+|   |   |-- App.js
+|   |   |-- index.js
+|   |-- package.json
+|-- server/
+|   |-- config/
+|   |-- controllers/
+|   |-- models/
+|   |-- routes/
+|   |-- .env.example
+|   |-- index.js
+|   |-- package.json
+|-- .gitignore
+|-- package.json
+|-- README.md
+
+
+## Installation
+
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+
+## Usage
+
+- Create an account or log in as a learner.
+- Browse the course catalog and enroll in courses of interest.
+- 
+Provide instructions and examples for use. Include screenshots as needed.
+
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
 
 ## Deployment
 
