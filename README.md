@@ -56,21 +56,21 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 
 ## Features
 
-1. User Authentication and Registration:
+#### 1. User Authentication and Registration:
 
 User accounts with unique usernames and passwords.
 Options for users to register using email, social media accounts, or other authentication methods.
 
-2. Course Catalog:
+#### 2. Course Catalog:
 
 A searchable and categorized list of available courses.
 Filter options for sorting by subject, level, duration, etc.
 
-3. Content Recommendations:
+#### 3. Content Recommendations:
 
 Personalized course recommendations based on user preferences, browsing history, and behavior.
 
-4. Admin Dashboard:
+#### 4. Admin Dashboard:
 
 Backend interface for administrators to manage users, courses, content, and settings.
 
