@@ -1,76 +1,79 @@
-# Avalanche-HyperSDK
+# <Xenon❤️Raghav>
 
-## Project Summary
+## Description
 
-The aim of this project was to create a custom virtual machine (VM) using the HyperSDK to enable users to mint and transfer tokens. By utilizing the HyperSDK's capabilities, I gained full control over the blockchain's rules and functionality, ensuring that the resulting solution is perfectly suited to the needs of my startup.
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-## Table of Contents
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
 
-- Project Steps
-- Functionalities Implemented
-- Tools and Technologies
-- Usage
-- Contributors
-- License
+## Table of Contents (Optional)
 
-## Project Steps
+If your README is long, add a table of contents to make it easy for users to find what they need.
 
-Here's a summary of the key steps I took to complete the project:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-1. **Cloning Initial Repository:** I began by cloning the provided initial [repository](https://github.com/metacrafters/tokenvm), which laid the foundation for creating the custom virtual machine.
+## Installation
 
-2. **Normalizing Dependencies:** To ensure smooth development, I used the `go mod tidy` command to normalize all project dependencies.
-
-3. **Configuring Project Constants:** In the `consts/consts.go` file, I configured essential project constants required for the custom virtual machine.
-
-4. **Registering Actions:** I registered the `Create_Asset` and `Mint_Asset` actions within the `registry/registry.go` file. This step was crucial for enabling token creation and minting.
-
-5. **Running the Custom VM Locally:** By following provided instructions, I set up my local environment to run the custom virtual machine. Utilizing scripts and ensuring GO was on my path, I successfully launched the custom subnet.
-
-6. **Interacting with the Custom VM:** I engaged with the custom HyperChain by testing token creation and minting functionalities. The provided demos and repository examples were instrumental in this step.
-
-7. **Closing the Local Avalanche Network:** After completing my testing, I responsibly closed the local Avalanche network using the `killall avalanche-network-runner` command.
-
-## Functionalities Implemented
-
-Throughout the project, I achieved the following functionalities:
-
-- Configured project constants to customize the custom VM according to my startup's specific needs.
-- Registered custom actions (`Create_Asset` and `Mint_Asset`) to enable users to create and mint tokens.
-- Successfully set up and ran the custom VM locally, demonstrating the minting and transferring of tokens.
-- Interacted with the custom HyperChain through provided demos and repository examples.
-
-## Tools and Technologies
-
-The project was completed using the following tools and technologies:
-
-- GO programming language
-- HyperSDK
-- Remix online IDE
-- Provided scripts and demos
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
 
-To experience the functionality of the custom virtual machine and interact with the custom HyperChain, follow these steps:
+Provide instructions and examples for use. Include screenshots as needed.
 
-1. **Clone the Repository:** Start by cloning the project [repository](https://github.com/metacrafters/tokenvm) to your local machine.
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
-2. **Normalize Dependencies:** Run `go mod tidy` inside the project folder to ensure all dependencies are properly set up.
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
 
-3. **Configure Constants:** Open the `consts/consts.go` file and configure the project constants to match your specific use case.
+## Credits
 
-4. **Register Actions:** In the `registry/registry.go` file, register additional actions if needed for your use case.
+List your collaborators, if any, with links to their GitHub profiles.
 
-5. **Run the Custom VM:** Utilize provided scripts and follow instructions to set up and run the custom VM locally.
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-6. **Interact and Test:** Use provided demos or interact with the custom HyperChain to test token creation, minting, and other functionalities.
-
-7. **Close the Network:** After testing, close the local Avalanche network using the `killall avalanche-network-runner` command.
-
-## Contributors
-
-This project was created by Raghav Garg
+If you followed tutorials, include links to those here as well.
 
 ## License
 
-This project is licensed under the [MIT License](../LICENSE).
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+
+---
+
+🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+
+## Features
+
+1. User Authentication and Registration:
+
+User accounts with unique usernames and passwords.
+Options for users to register using email, social media accounts, or other authentication methods.
+
+2. Course Catalog:
+
+A searchable and categorized list of available courses.
+Filter options for sorting by subject, level, duration, etc.
+
+3. Content Recommendations:
+
+Personalized course recommendations based on user preferences, browsing history, and behavior.
+
+4. Admin Dashboard:
+
+Backend interface for administrators to manage users, courses, content, and settings.
+
+## Tests
+
+Go the extra mile and write tests for your application. Then provide examples on how to run them here.
