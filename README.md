@@ -4,6 +4,24 @@
 
 It is a user-friendly web application designed to help both instructors and learners connect in a seamless educational environment. With a clean and intuitive interface, Learnify offers a straightforward platform for instructors to showcase their courses and for learners to discover and enroll in their preferred subjects.
 
+## Technologies Used
+
+### Frontend:
+
+- React.js
+- CSS for styling
+  
+### Backend:
+
+- Node.js
+- Express.js
+- MongoDB
+
+### Additional Libraries:
+
+- Axios for HTTP requests
+- React Router for client-side routing
+
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 - What problem does it solve?
