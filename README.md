@@ -4,24 +4,6 @@
 
 It is a user-friendly web application designed to help both instructors and learners connect in a seamless educational environment. With a clean and intuitive interface, Learnify offers a straightforward platform for instructors to showcase their courses and for learners to discover and enroll in their preferred subjects.
 
-## Technologies Used
-
-### Frontend:
-
-- React.js
-- CSS for styling
-  
-### Backend:
-
-- Node.js
-- Express.js
-- MongoDB
-
-### Additional Libraries:
-
-- Axios for HTTP requests
-- React Router for client-side routing
-
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
 - What problem does it solve?
@@ -32,8 +14,9 @@ It is a user-friendly web application designed to help both instructors and lear
 - [Features](#features)
 - [File Structure](#file-structure)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Deployment](#deployment)
+- [Usage](#usage)
+- [Technology Used](#technology-used)
 - [License](#license)
 
 ## Features
@@ -75,6 +58,8 @@ It is a user-friendly web application designed to help both instructors and lear
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
+## Deployment
+
 ## Usage
 
 - Create an account or log in as a learner.
@@ -87,7 +72,6 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
-
 ## Technologies Used
 
 ### Frontend:
@@ -101,8 +85,21 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 - Express.js
 - MongoDB
   
-## Deployment
+## Technologies Used
 
+### Frontend:
+- React.js
+- CSS for styling
+  
+### Backend:
+- Node.js
+- Express.js
+- MongoDB
+
+### Additional Libraries:
+- Axios for HTTP requests
+- React Router for client-side routing
+  
 ## License
 
 This project is licensed under the [MIT License](#mit-license).
