@@ -7,11 +7,11 @@ It is a user-friendly web application designed to help both instructors and lear
 ## Table of Contents
 
 - [Features](#features)
+- [Technology Used](technology-used)
 - [File Structure](#file-structure)
 - [Installation](#installation)
 - [Deployment](#deployment)
 - [Usage](#usage)
-- [Technology Used](#technology-used)
 - [License](#license)
 
 ## Features
@@ -34,6 +34,20 @@ It is a user-friendly web application designed to help both instructors and lear
 ### 4. Admin Dashboard:
 
 - Backend interface for administrators to manage users, courses, content, and settings.
+
+## Technologies Used
+Frontend:
+- React.js
+- CSS for styling
+  
+Backend:
+- Node.js
+- Express.js
+- MongoDB
+
+Additional Libraries:
+- Axios for HTTP requests
+- React Router for client-side routing
   
 ## File Structure
 
@@ -67,19 +81,6 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
-## Technologies Used
-Frontend:
-- React.js
-- CSS for styling
-  
-Backend:
-- Node.js
-- Express.js
-- MongoDB
-
-Additional Libraries:
-- Axios for HTTP requests
-- React Router for client-side routing
   
 ## License
 
