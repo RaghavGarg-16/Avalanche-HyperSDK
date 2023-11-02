@@ -57,26 +57,19 @@ It is a user-friendly web application designed to help both instructors and lear
 
 - Backend interface for administrators to manage users, courses, content, and settings.
   
-learnify/
-|-- client/
-|   |-- public/
-|   |-- src/
-|   |   |-- components/
-|   |   |-- App.js
-|   |   |-- index.js
-|   |-- package.json
-|-- server/
-|   |-- config/
-|   |-- controllers/
-|   |-- models/
-|   |-- routes/
-|   |-- .env.example
-|   |-- index.js
-|   |-- package.json
-|-- .gitignore
-|-- package.json
-|-- README.md
+## File Structure
 
+- client/: Frontend codebase.
+- server/: Backend codebase.
+- client/public/: Static assets.
+- client/src/: React components and application logic.
+- server/config/: Configuration files.
+- server/controllers/: Controllers for handling routes.
+- server/models/: Mongoose models for MongoDB.
+- server/routes/: Express.js route definitions.
+- .gitignore: Ignored files and directories for version control.
+- package.json: Project configuration and dependencies.
+- README.md: Project documentation.
 
 ## Installation
 
