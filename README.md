@@ -18,6 +18,27 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Credits](#credits)
 - [License](#license)
 
+## File structure
+- client - Holds the client application
+- public - This holds all of our static files
+- src
+- assets - This folder holds assets such as images, docs, and fonts
+- components - This folder holds all of the different components that will make up our views
+- views - These represent a unique page on the website i.e. Home or About. These are still normal react components.
+- App.js - This is what renders all of our browser routes and different views
+- index.js - This is what renders the react app by rendering App.js, should not change
+- package.json - Defines npm behaviors and packages for the client
+- server - Holds the server application
+- config - This holds our configuration files, like mongoDB uri
+- controllers - These hold all of the callback functions that each route will call
+- models - This holds all of our data models
+- routes - This holds all of our HTTP to URL path associations for each unique url
+- tests - This holds all of our server tests that we have defined
+- server.js - Defines npm behaviors and packages for the client
+- package.json - Defines npm behaviors like the scripts defined in the next section of the README
+- .gitignore - Tells git which files to ignore
+- README - This file!
+
 ## Installation
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
@@ -32,27 +53,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ![alt text](assets/images/screenshot.png)
     ```
 
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
 ## Features
 
