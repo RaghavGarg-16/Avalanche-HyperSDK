@@ -2,7 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+It is a user-friendly web application designed to help both instructors and learners connect in a seamless educational environment. With a clean and intuitive interface, Learnify offers a straightforward platform for instructors to showcase their courses and for learners to discover and enroll in their preferred subjects.
 
 - What was your motivation?
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
@@ -58,21 +58,22 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 
 ### 1. User Authentication and Registration:
 
-User accounts with unique usernames and passwords.
-Options for users to register using email, social media accounts, or other authentication methods.
+- User accounts with unique usernames and passwords.
+- Options for users to register using email, social media accounts, or other authentication methods.
 
 ### 2. Course Catalog:
 
-A searchable and categorized list of available courses.
-Filter options for sorting by subject, level, duration, etc.
+- A searchable and categorized list of available courses presented with clear titles, descriptions, and instructor details.
+- Filter options for sorting by subject, level, duration, etc.
+- Engage with comprehensive course overviews, including curriculum, prerequisites, and user reviews
 
 ### 3. Content Recommendations:
 
-Personalized course recommendations based on user preferences, browsing history, and behavior.
+- Personalized course recommendations based on user preferences, browsing history, and behavior.
 
 ### 4. Admin Dashboard:
 
-Backend interface for administrators to manage users, courses, content, and settings.
+- Backend interface for administrators to manage users, courses, content, and settings.
 
 ## Tests
 
