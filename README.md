@@ -16,23 +16,19 @@ It is a user-friendly web application designed to help both instructors and lear
 
 ## Features
 
-### 1. User Authentication and Registration:
-
+User Authentication and Registration:
 - User accounts with unique usernames and passwords.
 - Options for users to register using email, social media accounts, or other authentication methods.
 
-### 2. Course Catalog:
-
+Course Catalog:
 - A searchable and categorized list of available courses presented with clear titles, descriptions, and instructor details.
 - Filter options for sorting by subject, level, duration, etc.
 - Engage with comprehensive course overviews, including curriculum, prerequisites, and user reviews
 
-### 3. Content Recommendations:
-
+Content Recommendations:
 - Personalized course recommendations based on user preferences, browsing history, and behavior.
 
-### 4. Admin Dashboard:
-
+Admin Dashboard:
 - Backend interface for administrators to manage users, courses, content, and settings.
 
 ## Technologies Used
@@ -70,13 +66,6 @@ What are the steps required to install your project? Provide a step-by-step desc
 ## Deployment
 
 ## Usage
-
-- Create an account or log in as a learner.
-- Browse the course catalog and enroll in courses of interest.
-- 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
     ```md
     ![alt text](assets/images/screenshot.png)
