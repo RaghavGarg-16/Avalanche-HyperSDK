@@ -88,6 +88,19 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ![alt text](assets/images/screenshot.png)
     ```
 
+## Technologies Used
+
+### Frontend:
+
+- React.js
+- CSS for styling
+  
+### Backend:
+
+- Node.js
+- Express.js
+- MongoDB
+  
 ## Deployment
 
 ## License
