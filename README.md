@@ -15,6 +15,7 @@ It is a user-friendly web application designed to help both instructors and lear
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [Features](#features)
 
 ## File structure
 - client - Holds the client application
@@ -50,11 +51,6 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![alt text](assets/images/screenshot.png)
     ```
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
 ## Features
 
 ### 1. User Authentication and Registration:
@@ -76,6 +72,6 @@ The last section of a high-quality README file is the license. This lets other d
 
 - Backend interface for administrators to manage users, courses, content, and settings.
 
-## Tests
+## License
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+This project is licensed under the [MIT License](#mit-license).
