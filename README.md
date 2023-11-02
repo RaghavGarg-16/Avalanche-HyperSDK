@@ -1,8 +1,8 @@
-# Xenon❤️Raghav (Delployment Link)
+# XenonLearn (Delployment Link)
 
 ## Description
 
-It is a user-friendly web application designed to help both instructors and learners connect in a seamless educational environment. With a clean and intuitive interface, Learnify offers a straightforward platform for instructors to showcase their courses and for learners to discover and enroll in their preferred subjects.
+XenonLearn is a user-friendly web application designed to help both instructors and learners connect in a seamless educational environment. With a clean and intuitive interface, Learnify offers a straightforward platform for instructors to showcase their courses and for learners to discover and enroll in their preferred subjects.
 
 ## Table of Contents
 
