@@ -74,16 +74,16 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
 ## Technologies Used
 
-Frontend:
+1. Frontend:
 - React.js
 - CSS for styling
   
-Backend:
+2. Backend:
 - Node.js
 - Express.js
 - MongoDB
 
-Additional Libraries:
+3. Additional Libraries:
 - Axios for HTTP requests
 - React Router for client-side routing
   
